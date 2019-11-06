@@ -51,8 +51,6 @@ const data = [
   }
 ];
 
-testing error 
-
 app.get('/menu', (req, res) => {
 	res.status(200).send({ data: data || null })
 })
