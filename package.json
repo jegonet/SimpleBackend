@@ -8,6 +8,7 @@
     "express": "^4.16.4"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+	"build": "[my-framework] build --output public"
   }
 }
