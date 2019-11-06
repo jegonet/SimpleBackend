@@ -51,13 +51,13 @@ const data = [
   }
 ];
 
-app.get('menu', (req, res) => {
+app.get('/menu', (req, res) => {
 	res.status(200).send({ data: data || null })
 })
 
 
 // This responds a POST request for the homepage (Cambio para publicación)
-app.post('contact', function (req, res) {
+app.post('/contact', function (req, res) {
     
 	res.status(200);
     res.write("");
